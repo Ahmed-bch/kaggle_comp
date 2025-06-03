@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    admin:
+      email: a.a.boucherite@gmail.com
+      name: Djalil
+      password: admin123  # Sera hashé automatiquement
+    user1:
+      email: bouzamaamine8@gmail.com
+      name: Amine
+      password: amine123
+    user2:
+      email: azibizohra@gmail.com
+      name: eeeee
+      password: 12345
+
+cookie:
+  name: streamlit_auth_cookie
+  key: random_signature_key_12345  # Changez cette clé !
+  expiry_days: 30
